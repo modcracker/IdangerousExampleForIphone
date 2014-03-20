@@ -4,11 +4,11 @@ function fp_sizeWrapper(bodySelector, headerSelector, footerSelector) {
 
     //document.addEventListener("backbutton", onBackKeyDown, false);
 
-    //var script = document.createElement('script');
-    //script.src = 'cordova-2.4.0.js';
-    //script.type = 'text/javascript';
-    //document.getElementsByTagName('head')[0].appendChild(script);
-    //alert(screenWidth+"=="+screenHight);
+    var script = document.createElement('script');
+    script.src = 'cordova-2.4.0.js';
+    script.type = 'text/javascript';
+    document.getElementsByTagName('head')[0].appendChild(script);
+    alert(screenWidth+"=="+screenHight);
 
     var winWidth = $(window).width();
     var winHeight = $(window).height();
